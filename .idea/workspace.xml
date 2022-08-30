@@ -6,6 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="ee92f6aa-eebf-4d94-9691-173d4c75e4c4" name="Changes" comment="Singleton">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/singletonExpl/main/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/singletonExpl/main/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/singletonExpl/singleton/GameEngine.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/singletonExpl/singleton/GameEngine.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -46,7 +47,7 @@
       <recent name="observerExr.order" />
     </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Application.singletonExpl.main.Main">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="observerExr.Main" />
       <module name="WzorceProjektoweEx" />
@@ -60,8 +61,22 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="singletonExpl.main.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="singletonExpl.main.Main" />
+      <module name="WzorceProjektoweEx" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="singletonExpl.main.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.singletonExpl.main.Main" />
         <item itemvalue="Application.Main" />
       </list>
     </recent_temporary>
@@ -110,7 +125,14 @@
       <option name="project" value="LOCAL" />
       <updated>1661846932691</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Singleton">
+      <created>1661848553469</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1661848553469</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
