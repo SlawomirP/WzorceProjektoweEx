@@ -4,13 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ee92f6aa-eebf-4d94-9691-173d4c75e4c4" name="Changes" comment="implementacja observera">
-      <change beforePath="$PROJECT_DIR$/src/main/java/observerExr/notification/Email.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/observerExr/notification/Email.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/observerExr/notification/MobileApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/observerExr/notification/MobileApp.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/observerExr/order/Observable.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/observerExr/order/Observable.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/observerExr/order/Order.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/observerExr/order/Order.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/observerExr/order/OrderStatus.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/observerExr/order/OrderStatus.java" afterDir="false" />
-    </list>
+    <list default="true" id="ee92f6aa-eebf-4d94-9691-173d4c75e4c4" name="Changes" comment="implementacja observera" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -99,7 +93,14 @@
       <option name="project" value="LOCAL" />
       <updated>1661785904330</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="implementacja observera">
+      <created>1661787739841</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1661787739841</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
