@@ -11,7 +11,7 @@ public class House {
     private String garage;
 
     //tworzymy prywatny konstruktor
-    private House(HouseBuilder houseBuilder) {
+    public House(HouseBuilder houseBuilder) {
         this.walls = houseBuilder.walls;
         this.floors = houseBuilder.floors;
         this.roof = houseBuilder.roof;

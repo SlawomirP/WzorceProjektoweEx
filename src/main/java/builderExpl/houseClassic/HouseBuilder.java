@@ -13,6 +13,6 @@ public interface HouseBuilder {
     void buildGarage();
 
 //    metoda zwracajaca obiekt
-    House getHouse();
+    HouseClassic getHouse();
 }
 
