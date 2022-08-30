@@ -4,12 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ee92f6aa-eebf-4d94-9691-173d4c75e4c4" name="Changes" comment="Builder classic">
-      <change afterPath="$PROJECT_DIR$/src/main/java/builderExpl/houseClassic/SmallHouseBuilder.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/builderExpl/house/House.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/builderExpl/house/House.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/builderExpl/houseClassic/HouseDirector.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/builderExpl/houseClassic/HouseDirector.java" afterDir="false" />
-    </list>
+    <list default="true" id="ee92f6aa-eebf-4d94-9691-173d4c75e4c4" name="Changes" comment="Builder classic" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -185,7 +180,14 @@
       <option name="project" value="LOCAL" />
       <updated>1661887756924</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="Builder classic">
+      <created>1661889534701</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1661889534701</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
