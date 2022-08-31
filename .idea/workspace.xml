@@ -5,10 +5,18 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ee92f6aa-eebf-4d94-9691-173d4c75e4c4" name="Changes" comment="factory -&gt; metoda fabrykujaca">
+      <change afterPath="$PROJECT_DIR$/src/main/java/factoryExpl/units/BlueFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/factoryExpl/units/Factory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/factoryExpl/units/MechanizedUnit.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/factoryExpl/units/RedFactory.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/factoryExpl/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/factoryExpl/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/factoryExpl/metodaFabrykujaca/Tank.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/factoryExpl/metodaFabrykujaca/Tank.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/factoryExpl/metodaFabrykujaca/Unit.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/factoryExpl/metodaFabrykujaca/Unit.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/factoryExpl/metodaFabrykujaca/Factory.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/factoryExpl/metodaFabrykujaca/Rifleman.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/factoryExpl/units/Rifleman.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/factoryExpl/metodaFabrykujaca/Tank.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/factoryExpl/units/Tank.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/factoryExpl/metodaFabrykujaca/Unit.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/factoryExpl/units/InfantryUnit.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/factoryExpl/metodaFabrykujaca/UnitFactory.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/factoryExpl/metodaFabrykujaca/UnitType.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/factoryExpl/units/UnitType.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -49,6 +57,7 @@
       <recent name="observerExr.order" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="factoryExpl.units" />
       <recent name="builderExpl.houseClassic" />
       <recent name="builderExpl.house" />
     </key>
@@ -222,7 +231,14 @@
       <option name="project" value="LOCAL" />
       <updated>1661953573153</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="factory -&gt; metoda fabrykujaca">
+      <created>1661956517045</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1661956517045</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">

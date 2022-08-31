@@ -1,12 +1,12 @@
-package factoryExpl.metodaFabrykujaca;
+package factoryExpl.units;
 
-public abstract class Unit {
+public abstract class MechanizedUnit {
     private int hp;
     private int exp;
     private int dmg;
 
     //zmiana na protected!!! zeby nikt nie utorzyl z konstruktora
-   protected Unit(int hp, int exp, int dmg) {
+    protected MechanizedUnit(int hp, int exp, int dmg) {
         this.hp = hp;
         this.exp = exp;
         this.dmg = dmg;
