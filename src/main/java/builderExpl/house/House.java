@@ -1,14 +1,7 @@
 package builderExpl.house;
 
 public class House {
-
-    private String walls;
-    private String floors;
-    private String roof;
-    private String rooms;
-    private String windows;
-    private String doors;
-    private String garage;
+    private String walls, floors, roof, windows, doors, garage, rooms;
 
     //tworzymy prywatny konstruktor
     public House(HouseBuilder houseBuilder) {
@@ -20,8 +13,6 @@ public class House {
         this.garage = houseBuilder.garage;
         this.rooms = houseBuilder.rooms;
     }
-
-
     public String getWalls() {
         return walls;
     }
@@ -53,13 +44,7 @@ public class House {
 
     //tworzymy wewnetrzna klase statyczna
     public static class HouseBuilder {
-        private String walls;
-        private String floors;
-        private String rooms;
-        private String roof;
-        private String windows;
-        private String doors;
-        private String garage;
+        private String walls, floors, rooms, roof, windows, doors, garage;
 
         public House build() {
             return new House(this);

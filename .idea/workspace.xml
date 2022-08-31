@@ -5,9 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ee92f6aa-eebf-4d94-9691-173d4c75e4c4" name="Changes" comment="Builder classic">
-      <change afterPath="$PROJECT_DIR$/src/main/java/builderExpl/houseClassic/BigHouseBuilder.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/builderExpl/main/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/builderExpl/main/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/builderExpl/house/House.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/builderExpl/house/House.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -206,7 +205,14 @@
       <option name="project" value="LOCAL" />
       <updated>1661890661293</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="Builder classic">
+      <created>1661937309686</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1661937309686</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
