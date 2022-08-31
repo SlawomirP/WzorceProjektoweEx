@@ -4,15 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ee92f6aa-eebf-4d94-9691-173d4c75e4c4" name="Changes" comment="Builder classic">
-      <change afterPath="$PROJECT_DIR$/src/main/java/factoryExpl/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/factoryExpl/metodaFabrykujaca/Rifleman.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/factoryExpl/metodaFabrykujaca/Tank.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/factoryExpl/metodaFabrykujaca/Unit.java" afterDir="false" />
+    <list default="true" id="ee92f6aa-eebf-4d94-9691-173d4c75e4c4" name="Changes" comment="factory -&gt; metoda fabrykujaca">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/factoryExpl/Factory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/factoryExpl/metodaFabrykujaca/Factory.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/factoryExpl/UnitFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/factoryExpl/metodaFabrykujaca/UnitFactory.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/factoryExpl/UnitType.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/factoryExpl/metodaFabrykujaca/UnitType.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/factoryExpl/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/factoryExpl/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/factoryExpl/metodaFabrykujaca/Tank.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/factoryExpl/metodaFabrykujaca/Tank.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/factoryExpl/metodaFabrykujaca/Unit.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/factoryExpl/metodaFabrykujaca/Unit.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -219,7 +215,14 @@
       <option name="project" value="LOCAL" />
       <updated>1661937309686</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="factory -&gt; metoda fabrykujaca">
+      <created>1661953573153</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1661953573153</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -239,7 +242,8 @@
     <MESSAGE value="Singleton" />
     <MESSAGE value="Builder" />
     <MESSAGE value="Builder classic" />
-    <option name="LAST_COMMIT_MESSAGE" value="Builder classic" />
+    <MESSAGE value="factory -&gt; metoda fabrykujaca" />
+    <option name="LAST_COMMIT_MESSAGE" value="factory -&gt; metoda fabrykujaca" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

@@ -1,7 +1,6 @@
 package factoryExpl.metodaFabrykujaca;
 
 public abstract class Unit {
-
     private int hp;
     private int exp;
     private int dmg;
