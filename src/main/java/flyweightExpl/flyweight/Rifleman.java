@@ -1,26 +1,14 @@
 package flyweightExpl.flyweight;
 
 public class Rifleman {
-
-    private final Object resourceCost;
-    private String name;
-    private int hp;
-    private int armour;
-    private int damageDealt;
-    private int speed;
     private int x;
     private int y;
     private int hpLeft;
-
-    public Rifleman(Object resourceCost, String name, int hp, int armour, int damageDealt, int speed, int x, int y){
-        this.resourceCost = resourceCost;
-        this.name = name;
-        this.hp = hp;
-        this.armour = armour;
-        this.damageDealt = damageDealt;
-        this.speed = speed;
+    private UnitStats stats;
+    public Rifleman(int x, int y) {
+        stats = UnitStatsRepository.getRiflemanUnitStats();
         this.x = x;
         this.y = y;
-        this.hpLeft = hp;
+        this.hpLeft = stats.getHp();
     }
 }

@@ -12,9 +12,9 @@ public class Main {
         List<Object> activeObject = new ArrayList<>();
 
         for (int i = 0; i<1000000; i++){
-            activeObject.add(new TeslaTank(50, "TeslaTank", 100, 50, 25, 0, 0, 2));
-            activeObject.add(new Rifleman(40, "Riflemnan man", 100, 50, 25, 0, 0, 3));
-            activeObject.add(new Destroyer(505, "Destroyer big", 100, 50, 25, 0, 0, 3));
+            activeObject.add(new TeslaTank(5,6));
+            activeObject.add(new Rifleman(3,2));
+            activeObject.add(new Destroyer(1,2));
         }
     }
 }

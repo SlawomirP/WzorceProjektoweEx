@@ -1,26 +1,18 @@
 package flyweightExpl.flyweight;
 
 public class Destroyer {
-
-    private final Object resourceCost;
-    private String name;
-    private int hp;
-    private int armour;
-    private int damageDealt;
-    private int speed;
+    //TO JEST KLASA DESTROYERA TYLKO ZE ZMIENNYMI POLAMI
+    //STALE SA ZAWARTE W OBIEKCIE
     private int x;
     private int y;
     private int hpLeft;
-
-    public Destroyer(Object resourceCost, String name, int hp, int armour, int damageDealt, int speed, int x, int y){
-        this.resourceCost = resourceCost;
-        this.name = name;
-        this.hp = hp;
-        this.armour = armour;
-        this.damageDealt = damageDealt;
-        this.speed = speed;
+    private UnitStats stats; // tu stale staty
+    public Destroyer(int x, int y) {
+        //pole ze stałymi statystykami
+        stats = UnitStatsRepository.getDestroyerStats();
         this.x = x;
         this.y = y;
-        this.hpLeft = hp;
+        //ze stats wyciagamy hp
+        this.hpLeft = stats.getHp();
     }
 }
