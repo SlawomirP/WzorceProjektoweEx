@@ -4,19 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ee92f6aa-eebf-4d94-9691-173d4c75e4c4" name="Changes" comment="factory -&gt; metoda fabrykujaca">
-      <change afterPath="$PROJECT_DIR$/src/main/java/factoryExpl/units/BlueFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/factoryExpl/units/Factory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/factoryExpl/units/MechanizedUnit.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/factoryExpl/units/RedFactory.java" afterDir="false" />
+    <list default="true" id="ee92f6aa-eebf-4d94-9691-173d4c75e4c4" name="Changes" comment="factory -&gt; fabryka abstrakcyjna">
+      <change afterPath="$PROJECT_DIR$/src/main/java/flyweightExpl/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/flyweightExpl/flyweight/Destroyer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/flyweightExpl/flyweight/Rifleman.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/flyweightExpl/flyweight/TeslaTank.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/factoryExpl/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/factoryExpl/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/factoryExpl/metodaFabrykujaca/Factory.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/factoryExpl/metodaFabrykujaca/Rifleman.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/factoryExpl/units/Rifleman.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/factoryExpl/metodaFabrykujaca/Tank.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/factoryExpl/units/Tank.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/factoryExpl/metodaFabrykujaca/Unit.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/factoryExpl/units/InfantryUnit.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/factoryExpl/metodaFabrykujaca/UnitFactory.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/factoryExpl/metodaFabrykujaca/UnitType.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/factoryExpl/units/UnitType.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -62,7 +55,7 @@
       <recent name="builderExpl.house" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.builderExpl.main.Main">
+  <component name="RunManager" selected="Application.flyweightExpl.Main">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="observerExr.Main" />
       <module name="WzorceProjektoweEx" />
@@ -89,6 +82,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="flyweightExpl.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="flyweightExpl.Main" />
+      <module name="WzorceProjektoweEx" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="flyweightExpl.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="singletonExpl.main.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="singletonExpl.main.Main" />
       <module name="WzorceProjektoweEx" />
@@ -104,6 +110,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.flyweightExpl.Main" />
         <item itemvalue="Application.builderExpl.main.Main" />
         <item itemvalue="Application.singletonExpl.main.Main" />
         <item itemvalue="Application.Main" />
@@ -238,7 +245,14 @@
       <option name="project" value="LOCAL" />
       <updated>1661956517045</updated>
     </task>
-    <option name="localTasksCounter" value="18" />
+    <task id="LOCAL-00018" summary="factory -&gt; fabryka abstrakcyjna">
+      <created>1661963660939</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1661963660939</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -259,7 +273,8 @@
     <MESSAGE value="Builder" />
     <MESSAGE value="Builder classic" />
     <MESSAGE value="factory -&gt; metoda fabrykujaca" />
-    <option name="LAST_COMMIT_MESSAGE" value="factory -&gt; metoda fabrykujaca" />
+    <MESSAGE value="factory -&gt; fabryka abstrakcyjna" />
+    <option name="LAST_COMMIT_MESSAGE" value="factory -&gt; fabryka abstrakcyjna" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
