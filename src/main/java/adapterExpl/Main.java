@@ -22,7 +22,8 @@ public class Main {
         continentalSocket.plugIn(continentalRadio);
         ukSocket.plugIn(ukRadio);
 
-        continentalSocket.plugIn(ukRadio); // i tu zrobimy adapter
-        ukSocket.plugIn(continentalRadio);
+        UKtoContinental ukRadioToContinental = new UKtoContinental(ukRadio);
+        continentalSocket.plugIn(ukRadioToContinental); // i tu zrobimy adapter
+
     }
 }
