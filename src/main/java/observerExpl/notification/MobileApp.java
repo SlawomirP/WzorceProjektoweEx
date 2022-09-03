@@ -1,6 +1,6 @@
-package observerExr.notification;
+package observerExpl.notification;
 
-import observerExr.order.Order;
+import observerExpl.order.Order;
 
 public class MobileApp implements Observer{
     public void update(Order order) {

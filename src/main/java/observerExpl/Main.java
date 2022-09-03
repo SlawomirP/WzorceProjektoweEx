@@ -1,10 +1,10 @@
-package observerExr;
+package observerExpl;
 
-import observerExr.notification.Email;
-import observerExr.notification.MobileApp;
-import observerExr.notification.TextMessage;
-import observerExr.order.Order;
-import observerExr.order.OrderStatus;
+import observerExpl.notification.Email;
+import observerExpl.notification.MobileApp;
+import observerExpl.notification.TextMessage;
+import observerExpl.order.Order;
+import observerExpl.order.OrderStatus;
 
 public class Main {
     public static void main(String[] args) {

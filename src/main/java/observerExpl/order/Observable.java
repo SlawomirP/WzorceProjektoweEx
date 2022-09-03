@@ -1,6 +1,6 @@
-package observerExr.order;
+package observerExpl.order;
 
-import observerExr.notification.Observer;
+import observerExpl.notification.Observer;
 
 public interface Observable {
     void registerObserver(Observer observer);

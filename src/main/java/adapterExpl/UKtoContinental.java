@@ -6,13 +6,12 @@ public class UKtoContinental implements ContinentalDevice{
     UKDevice device;
     //to pole musi zostac dostarczone w konstruktorze
 
-
     public UKtoContinental(UKDevice device) {
         this.device = device;
     }
 
     @Override
-    public void powerOn() {
+    public void On() {
         device.powerOn();
 
     }

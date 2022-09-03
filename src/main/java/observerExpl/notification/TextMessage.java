@@ -1,6 +1,6 @@
-package observerExr.notification;
+package observerExpl.notification;
 
-import observerExr.order.Order;
+import observerExpl.order.Order;
 
 public class TextMessage implements Observer{
     @Override

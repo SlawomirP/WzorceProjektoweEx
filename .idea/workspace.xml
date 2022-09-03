@@ -4,10 +4,21 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ee92f6aa-eebf-4d94-9691-173d4c75e4c4" name="Changes" comment="AdapterPattern">
+    <list default="true" id="ee92f6aa-eebf-4d94-9691-173d4c75e4c4" name="Changes" comment="AdapterPattern one way">
+      <change afterPath="$PROJECT_DIR$/src/main/java/adapterExpl/TwoWaysAdapter.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/adapterExpl/ContinentalDevice.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/adapterExpl/ContinentalDevice.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/adapterExpl/ContinentalSocket.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/adapterExpl/ContinentalSocket.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/adapterExpl/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/adapterExpl/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/adapterExpl/UKtoContinental.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/adapterExpl/UKtoContinental.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/observerExr/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/observerExpl/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/observerExr/notification/Email.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/observerExpl/notification/Email.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/observerExr/notification/MobileApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/observerExpl/notification/MobileApp.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/observerExr/notification/Observer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/observerExpl/notification/Observer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/observerExr/notification/TextMessage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/observerExpl/notification/TextMessage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/observerExr/order/Observable.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/observerExpl/order/Observable.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/observerExr/order/Order.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/observerExpl/order/Order.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/observerExr/order/OrderStatus.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/observerExpl/order/OrderStatus.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -57,11 +68,11 @@
   </component>
   <component name="RunManager" selected="Application.adapterExpl.Main">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="observerExr.Main" />
+      <option name="MAIN_CLASS_NAME" value="observerExpl.Main" />
       <module name="WzorceProjektoweEx" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="observerExr.*" />
+          <option name="PATTERN" value="observerExpl.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -301,7 +312,14 @@
       <option name="project" value="LOCAL" />
       <updated>1662206112606</updated>
     </task>
-    <option name="localTasksCounter" value="24" />
+    <task id="LOCAL-00024" summary="AdapterPattern one way">
+      <created>1662209042787</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1662209042787</updated>
+    </task>
+    <option name="localTasksCounter" value="25" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -325,7 +343,8 @@
     <MESSAGE value="factory -&gt; fabryka abstrakcyjna" />
     <MESSAGE value="FlyweightPattern" />
     <MESSAGE value="AdapterPattern" />
-    <option name="LAST_COMMIT_MESSAGE" value="AdapterPattern" />
+    <MESSAGE value="AdapterPattern one way" />
+    <option name="LAST_COMMIT_MESSAGE" value="AdapterPattern one way" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
