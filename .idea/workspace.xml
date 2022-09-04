@@ -4,9 +4,15 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ee92f6aa-eebf-4d94-9691-173d4c75e4c4" name="Changes" comment="Pattern decorator expl">
-      <change afterPath="$PROJECT_DIR$/src/main/java/chainOfResponsibilityExpl/message/Message.java" afterDir="false" />
+    <list default="true" id="ee92f6aa-eebf-4d94-9691-173d4c75e4c4" name="Changes" comment="Pattern chain of responsibility">
+      <change afterPath="$PROJECT_DIR$/src/main/java/chainOfResponsibilityExpl/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/chainOfResponsibilityExpl/officer/Captain.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/chainOfResponsibilityExpl/officer/General.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/chainOfResponsibilityExpl/officer/Officer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/chainOfResponsibilityExpl/officer/OfficerRank.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/chainOfResponsibilityExpl/officer/Sergeant.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/chainOfResponsibilityExpl/message/Message.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/chainOfResponsibilityExpl/message/Message.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -16,8 +22,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Enum" />
         <option value="Interface" />
+        <option value="Enum" />
         <option value="Class" />
       </list>
     </option>
@@ -48,26 +54,14 @@
       <recent name="observerExr.order" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="chainOfResponsibilityExpl.officer" />
       <recent name="flyweightExpl.flyweight" />
       <recent name="factoryExpl.units" />
       <recent name="builderExpl.houseClassic" />
       <recent name="builderExpl.house" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.adapterExpl.Main">
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="decoratorExpl.Main" />
-      <module name="WzorceProjektoweEx" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="decoratorExpl.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.chainOfResponsibilityExpl.Main">
     <configuration name="adapterExpl.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="adapterExpl.Main" />
       <module name="WzorceProjektoweEx" />
@@ -87,6 +81,19 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="builderExpl.main.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="chainOfResponsibilityExpl.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="chainOfResponsibilityExpl.Main" />
+      <module name="WzorceProjektoweEx" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="chainOfResponsibilityExpl.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -122,6 +129,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.chainOfResponsibilityExpl.Main" />
         <item itemvalue="Application.adapterExpl.Main" />
         <item itemvalue="Application.flyweightExpl.Main" />
         <item itemvalue="Application.builderExpl.main.Main" />
@@ -327,7 +335,21 @@
       <option name="project" value="LOCAL" />
       <updated>1662282693738</updated>
     </task>
-    <option name="localTasksCounter" value="28" />
+    <task id="LOCAL-00028" summary="Pattern chain of responsibility">
+      <created>1662291733223</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1662291733223</updated>
+    </task>
+    <task id="LOCAL-00029" summary="Pattern chain of responsibility">
+      <created>1662291773056</created>
+      <option name="number" value="00029" />
+      <option name="presentableId" value="LOCAL-00029" />
+      <option name="project" value="LOCAL" />
+      <updated>1662291773056</updated>
+    </task>
+    <option name="localTasksCounter" value="30" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -353,7 +375,8 @@
     <MESSAGE value="AdapterPattern one way" />
     <MESSAGE value="AdapterPattern" />
     <MESSAGE value="Pattern decorator expl" />
-    <option name="LAST_COMMIT_MESSAGE" value="Pattern decorator expl" />
+    <MESSAGE value="Pattern chain of responsibility" />
+    <option name="LAST_COMMIT_MESSAGE" value="Pattern chain of responsibility" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
