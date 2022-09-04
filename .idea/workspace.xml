@@ -5,14 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ee92f6aa-eebf-4d94-9691-173d4c75e4c4" name="Changes" comment="Pattern chain of responsibility">
-      <change afterPath="$PROJECT_DIR$/src/main/java/chainOfResponsibilityExpl/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/chainOfResponsibilityExpl/officer/Captain.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/chainOfResponsibilityExpl/officer/General.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/chainOfResponsibilityExpl/officer/Officer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/chainOfResponsibilityExpl/officer/OfficerRank.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/chainOfResponsibilityExpl/officer/Sergeant.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/chainOfResponsibilityExpl/message/Message.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/chainOfResponsibilityExpl/message/Message.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -349,7 +342,14 @@
       <option name="project" value="LOCAL" />
       <updated>1662291773056</updated>
     </task>
-    <option name="localTasksCounter" value="30" />
+    <task id="LOCAL-00030" summary="Pattern chain of responsibility">
+      <created>1662296320864</created>
+      <option name="number" value="00030" />
+      <option name="presentableId" value="LOCAL-00030" />
+      <option name="project" value="LOCAL" />
+      <updated>1662296320864</updated>
+    </task>
+    <option name="localTasksCounter" value="31" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
