@@ -5,15 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ee92f6aa-eebf-4d94-9691-173d4c75e4c4" name="Changes" comment="Pattern decorator expl">
-      <change afterPath="$PROJECT_DIR$/src/main/java/decoratorExpl/ForestDecorator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/decoratorExpl/Hill.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/decoratorExpl/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/decoratorExpl/Plain.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/decoratorExpl/RoadDecorator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/decoratorExpl/SwampDecorator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/decoratorExpl/TerrainDecorator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/chainOfResponsibilityExpl/message/Message.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/decoratorExpl/Terrain.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/decoratorExpl/Terrain.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -327,7 +320,14 @@
       <option name="project" value="LOCAL" />
       <updated>1662230494736</updated>
     </task>
-    <option name="localTasksCounter" value="27" />
+    <task id="LOCAL-00027" summary="Pattern decorator expl">
+      <created>1662282693738</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1662282693738</updated>
+    </task>
+    <option name="localTasksCounter" value="28" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
