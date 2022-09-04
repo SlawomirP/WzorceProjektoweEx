@@ -4,9 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ee92f6aa-eebf-4d94-9691-173d4c75e4c4" name="Changes" comment="Pattern chain of responsibility">
+    <list default="true" id="ee92f6aa-eebf-4d94-9691-173d4c75e4c4" name="Changes" comment="templateMethod pattern">
+      <change afterPath="$PROJECT_DIR$/src/main/java/templateMethodExpl/AutomaticTransmisionCar.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/templateMethodExpl/CarStartingSequence.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/templateMethodExpl/ClassicCarStartingSequence.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/chainOfResponsibilityExpl/message/Message.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/chainOfResponsibilityExpl/message/Message.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -357,7 +359,14 @@
       <option name="project" value="LOCAL" />
       <updated>1662304299198</updated>
     </task>
-    <option name="localTasksCounter" value="32" />
+    <task id="LOCAL-00032" summary="templateMethod pattern">
+      <created>1662308690622</created>
+      <option name="number" value="00032" />
+      <option name="presentableId" value="LOCAL-00032" />
+      <option name="project" value="LOCAL" />
+      <updated>1662308690622</updated>
+    </task>
+    <option name="localTasksCounter" value="33" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -384,7 +393,8 @@
     <MESSAGE value="AdapterPattern" />
     <MESSAGE value="Pattern decorator expl" />
     <MESSAGE value="Pattern chain of responsibility" />
-    <option name="LAST_COMMIT_MESSAGE" value="Pattern chain of responsibility" />
+    <MESSAGE value="templateMethod pattern" />
+    <option name="LAST_COMMIT_MESSAGE" value="templateMethod pattern" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
