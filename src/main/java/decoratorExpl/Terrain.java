@@ -12,4 +12,8 @@ public abstract class Terrain {
     public int getFuelCost(){
         return this.fuelCost;
     }
+
+    public String getDescription() {
+        return description;
+    }
 }

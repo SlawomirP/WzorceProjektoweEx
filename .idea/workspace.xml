@@ -4,8 +4,16 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ee92f6aa-eebf-4d94-9691-173d4c75e4c4" name="Changes" comment="AdapterPattern">
-      <change afterPath="$PROJECT_DIR$/src/main/java/decoratorExpl/Terrain.java" afterDir="false" />
+    <list default="true" id="ee92f6aa-eebf-4d94-9691-173d4c75e4c4" name="Changes" comment="Pattern decorator expl">
+      <change afterPath="$PROJECT_DIR$/src/main/java/decoratorExpl/ForestDecorator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/decoratorExpl/Hill.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/decoratorExpl/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/decoratorExpl/Plain.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/decoratorExpl/RoadDecorator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/decoratorExpl/SwampDecorator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/decoratorExpl/TerrainDecorator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/decoratorExpl/Terrain.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/decoratorExpl/Terrain.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -55,11 +63,11 @@
   </component>
   <component name="RunManager" selected="Application.adapterExpl.Main">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="observerExpl.Main" />
+      <option name="MAIN_CLASS_NAME" value="decoratorExpl.Main" />
       <module name="WzorceProjektoweEx" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="observerExpl.*" />
+          <option name="PATTERN" value="decoratorExpl.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -125,7 +133,6 @@
         <item itemvalue="Application.flyweightExpl.Main" />
         <item itemvalue="Application.builderExpl.main.Main" />
         <item itemvalue="Application.singletonExpl.main.Main" />
-        <item itemvalue="Application.Main" />
       </list>
     </recent_temporary>
   </component>
@@ -313,7 +320,14 @@
       <option name="project" value="LOCAL" />
       <updated>1662229772034</updated>
     </task>
-    <option name="localTasksCounter" value="26" />
+    <task id="LOCAL-00026" summary="Pattern decorator expl">
+      <created>1662230494736</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1662230494736</updated>
+    </task>
+    <option name="localTasksCounter" value="27" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -338,7 +352,8 @@
     <MESSAGE value="FlyweightPattern" />
     <MESSAGE value="AdapterPattern one way" />
     <MESSAGE value="AdapterPattern" />
-    <option name="LAST_COMMIT_MESSAGE" value="AdapterPattern" />
+    <MESSAGE value="Pattern decorator expl" />
+    <option name="LAST_COMMIT_MESSAGE" value="Pattern decorator expl" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
