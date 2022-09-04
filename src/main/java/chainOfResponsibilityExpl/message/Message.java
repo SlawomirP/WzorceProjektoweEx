@@ -13,15 +13,12 @@ public class Message {
         this.code = code;
         this.officerRank = officerRank;
     }
-
     public int getCode() {
         return code;
     }
-
     public OfficerRank getOfficerRank() {
         return officerRank;
     }
-
     public String getContent() {
         return content;
     }
