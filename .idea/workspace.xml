@@ -5,9 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ee92f6aa-eebf-4d94-9691-173d4c75e4c4" name="Changes" comment="templateMethod pattern">
-      <change afterPath="$PROJECT_DIR$/src/main/java/templateMethodExpl/AutomaticTransmisionCar.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/templateMethodExpl/CarStartingSequence.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/templateMethodExpl/ClassicCarStartingSequence.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/commandExpl/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/commandExpl/workshop/Robot.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/commandExpl/workshop/WorkshopApp.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -57,7 +57,20 @@
       <recent name="builderExpl.house" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.chainOfResponsibilityExpl.Main">
+  <component name="RunManager" selected="Application.Main">
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="commandExpl.Main" />
+      <module name="WzorceProjektoweEx" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="commandExpl.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="adapterExpl.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="adapterExpl.Main" />
       <module name="WzorceProjektoweEx" />
@@ -110,26 +123,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="singletonExpl.main.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="singletonExpl.main.Main" />
-      <module name="WzorceProjektoweEx" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="singletonExpl.main.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Main" />
         <item itemvalue="Application.chainOfResponsibilityExpl.Main" />
         <item itemvalue="Application.adapterExpl.Main" />
         <item itemvalue="Application.flyweightExpl.Main" />
         <item itemvalue="Application.builderExpl.main.Main" />
-        <item itemvalue="Application.singletonExpl.main.Main" />
       </list>
     </recent_temporary>
   </component>
@@ -366,7 +366,14 @@
       <option name="project" value="LOCAL" />
       <updated>1662308690622</updated>
     </task>
-    <option name="localTasksCounter" value="33" />
+    <task id="LOCAL-00033" summary="templateMethod pattern">
+      <created>1662309613558</created>
+      <option name="number" value="00033" />
+      <option name="presentableId" value="LOCAL-00033" />
+      <option name="project" value="LOCAL" />
+      <updated>1662309613558</updated>
+    </task>
+    <option name="localTasksCounter" value="34" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
