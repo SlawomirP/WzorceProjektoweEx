@@ -1,18 +1,32 @@
 package commandExpl.workshop;
 
+import commandExpl.command.Command;
+
+import java.util.ArrayList;
+import java.util.List;
+
 public class WorkshopApp {
 
-    private Robot robot;
+    //implementacja kolejki
+    private List<Command> commandQueue = new ArrayList<>();
 
-    public WorkshopApp(Robot robot) {
-        this.robot = robot;
+    //metoda dodająca komende do kolejki
+    public void addToQueue(Command command){
+        commandQueue.add(command);
     }
-
     //metoda dostepna z main
     public void run(){
-        robot.turnOn();
-        robot.cut();
-        robot.drill();
-        robot.turnOff();
+        if(commandQueue.isEmpty()){
+            System.out.println("Queue is empty");
+        }
+       for(Command command: commandQueue){
+           command.execute();
+       }
+//       commandQueue.clear();
+    }
+    public void undoLastCommand(){
+        for(Command command: commandQueue){
+            command.undo();
+        }
     }
 }

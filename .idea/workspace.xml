@@ -4,11 +4,19 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ee92f6aa-eebf-4d94-9691-173d4c75e4c4" name="Changes" comment="templateMethod pattern">
-      <change afterPath="$PROJECT_DIR$/src/main/java/commandExpl/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/commandExpl/workshop/Robot.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/commandExpl/workshop/WorkshopApp.java" afterDir="false" />
+    <list default="true" id="ee92f6aa-eebf-4d94-9691-173d4c75e4c4" name="Changes" comment="CommandPattern">
+      <change afterPath="$PROJECT_DIR$/src/main/java/commandExpl/command/CoffeMakerTurnOff.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/commandExpl/command/CoffeMakerTurnOn.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/commandExpl/command/Command.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/commandExpl/command/RobotCutCommand.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/commandExpl/command/RobotDrillCommand.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/commandExpl/command/RobotTurnOffCommand.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/commandExpl/command/RobotTurnOnCommand.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/commandExpl/workshop/CoffeMaker.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/commandExpl/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/commandExpl/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/commandExpl/workshop/Robot.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/commandExpl/workshop/Robot.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/commandExpl/workshop/WorkshopApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/commandExpl/workshop/WorkshopApp.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -18,8 +26,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Interface" />
         <option value="Enum" />
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
@@ -50,11 +58,11 @@
       <recent name="observerExr.order" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="commandExpl.command" />
       <recent name="chainOfResponsibilityExpl.officer" />
       <recent name="flyweightExpl.flyweight" />
       <recent name="factoryExpl.units" />
       <recent name="builderExpl.houseClassic" />
-      <recent name="builderExpl.house" />
     </key>
   </component>
   <component name="RunManager" selected="Application.Main">
@@ -373,7 +381,14 @@
       <option name="project" value="LOCAL" />
       <updated>1662309613558</updated>
     </task>
-    <option name="localTasksCounter" value="34" />
+    <task id="LOCAL-00034" summary="CommandPattern">
+      <created>1662462599092</created>
+      <option name="number" value="00034" />
+      <option name="presentableId" value="LOCAL-00034" />
+      <option name="project" value="LOCAL" />
+      <updated>1662462599092</updated>
+    </task>
+    <option name="localTasksCounter" value="35" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -401,7 +416,8 @@
     <MESSAGE value="Pattern decorator expl" />
     <MESSAGE value="Pattern chain of responsibility" />
     <MESSAGE value="templateMethod pattern" />
-    <option name="LAST_COMMIT_MESSAGE" value="templateMethod pattern" />
+    <MESSAGE value="CommandPattern" />
+    <option name="LAST_COMMIT_MESSAGE" value="CommandPattern" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
