@@ -1,29 +1,21 @@
 package mementoExpl.smartApp;
 
-import java.util.ArrayList;
-import java.util.List;
-
 public class Smart_App {
 
-    private double version;
-    private List<Double> versionList= new ArrayList<>();
+    private Double version;
 
-    public void setVersionList(List<Double> versionList) {
-        this.versionList = versionList;
-    }
-
-    public List<Double> getVersionList() {
-        return versionList;
-    }
-
-    public void setVersion(double version) {
+    public void changeVersion(Double version){
         this.version = version;
+        System.out.println("New version: " + this.version);
     }
 
-    @Override
-    public String toString() {
-        return "smart_app{" +
-                "version=" + version +
-                '}';
+    //metody do zapisywania i odczytywania pamiatek, rowniez publiczne
+    public SmartAppMemento save(){
+        return new SmartAppMemento(this.version);
     }
+    public void load(SmartAppMemento smartAppMemento){
+        this.version = smartAppMemento.getVersion();
+    }
+
+
 }
