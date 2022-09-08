@@ -5,8 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ee92f6aa-eebf-4d94-9691-173d4c75e4c4" name="Changes" comment="MementoPattern">
+      <change afterPath="$PROJECT_DIR$/src/main/java/strategyExpl/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/strategyExpl/chef/Chef.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/mementoExpl/smartApp/Smart_App.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/mementoExpl/smartApp/Smart_App.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -55,7 +56,7 @@
       <recent name="builderExpl.houseClassic" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.mementoExpl.Main">
+  <component name="RunManager" selected="Application.strategyExpl.Main">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="commandExpl.Main" />
       <module name="WzorceProjektoweEx" />
@@ -95,19 +96,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="flyweightExpl.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="flyweightExpl.Main" />
-      <module name="WzorceProjektoweEx" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="flyweightExpl.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="mementoExpl.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="mementoExpl.Main" />
       <module name="WzorceProjektoweEx" />
@@ -121,13 +109,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="strategyExpl.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="strategyExpl.Main" />
+      <module name="WzorceProjektoweEx" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="strategyExpl.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.strategyExpl.Main" />
         <item itemvalue="Application.mementoExpl.Main" />
         <item itemvalue="Application.Main" />
         <item itemvalue="Application.chainOfResponsibilityExpl.Main" />
         <item itemvalue="Application.adapterExpl.Main" />
-        <item itemvalue="Application.flyweightExpl.Main" />
       </list>
     </recent_temporary>
   </component>
@@ -406,7 +407,14 @@
       <option name="project" value="LOCAL" />
       <updated>1662561708909</updated>
     </task>
-    <option name="localTasksCounter" value="39" />
+    <task id="LOCAL-00039" summary="MementoPattern">
+      <created>1662563488708</created>
+      <option name="number" value="00039" />
+      <option name="presentableId" value="LOCAL-00039" />
+      <option name="project" value="LOCAL" />
+      <updated>1662563488708</updated>
+    </task>
+    <option name="localTasksCounter" value="40" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
