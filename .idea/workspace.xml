@@ -5,7 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ee92f6aa-eebf-4d94-9691-173d4c75e4c4" name="Changes" comment="PatternStrategy">
+      <change afterPath="$PROJECT_DIR$/src/main/java/strategyExpl/chef/eggCooker/EggCooker.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/strategyExpl/chef/eggCooker/HardBoilEggCooker.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/strategyExpl/chef/eggCooker/SoftBoilEggCooker.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/strategyExpl/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/strategyExpl/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/strategyExpl/chef/Chef.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/strategyExpl/chef/Chef.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -47,11 +52,11 @@
       <recent name="observerExr.order" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="strategyExpl.chef.eggCooker" />
       <recent name="commandExpl.command" />
       <recent name="chainOfResponsibilityExpl.officer" />
       <recent name="flyweightExpl.flyweight" />
       <recent name="factoryExpl.units" />
-      <recent name="builderExpl.houseClassic" />
     </key>
   </component>
   <component name="RunManager" selected="Application.strategyExpl.Main">
@@ -419,7 +424,14 @@
       <option name="project" value="LOCAL" />
       <updated>1662659043200</updated>
     </task>
-    <option name="localTasksCounter" value="41" />
+    <task id="LOCAL-00041" summary="PatternStrategy">
+      <created>1662666051266</created>
+      <option name="number" value="00041" />
+      <option name="presentableId" value="LOCAL-00041" />
+      <option name="project" value="LOCAL" />
+      <updated>1662666051266</updated>
+    </task>
+    <option name="localTasksCounter" value="42" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
