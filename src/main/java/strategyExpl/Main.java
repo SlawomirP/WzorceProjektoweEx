@@ -15,6 +15,5 @@ public class Main {
         chef.setEggCooker(new SoftBoilEggCooker());
         chef.cook();
 
-        //new order - soft eggs
     }
 }

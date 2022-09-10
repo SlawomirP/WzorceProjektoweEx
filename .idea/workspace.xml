@@ -5,12 +5,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ee92f6aa-eebf-4d94-9691-173d4c75e4c4" name="Changes" comment="PatternStrategy">
-      <change afterPath="$PROJECT_DIR$/src/main/java/strategyExpl/chef/eggCooker/EggCooker.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/strategyExpl/chef/eggCooker/HardBoilEggCooker.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/strategyExpl/chef/eggCooker/SoftBoilEggCooker.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/visitorExpl/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/visitorExpl/activity/Activity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/visitorExpl/activity/Squash.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/visitorExpl/activity/Treadmill.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/visitorExpl/activity/Weights.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/visitorExpl/visitor/Visitor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/visitorExpl/visitor/VisitorImpl.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/strategyExpl/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/strategyExpl/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/strategyExpl/chef/Chef.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/strategyExpl/chef/Chef.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -21,8 +24,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Enum" />
-        <option value="Interface" />
         <option value="Class" />
+        <option value="Interface" />
       </list>
     </option>
   </component>
@@ -52,33 +55,20 @@
       <recent name="observerExr.order" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="visitorExpl.activity" />
       <recent name="strategyExpl.chef.eggCooker" />
       <recent name="commandExpl.command" />
       <recent name="chainOfResponsibilityExpl.officer" />
       <recent name="flyweightExpl.flyweight" />
-      <recent name="factoryExpl.units" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.strategyExpl.Main">
+  <component name="RunManager" selected="Application.visitorExpl.Main">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="commandExpl.Main" />
       <module name="WzorceProjektoweEx" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="commandExpl.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="adapterExpl.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="adapterExpl.Main" />
-      <module name="WzorceProjektoweEx" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="adapterExpl.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -125,13 +115,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="visitorExpl.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="visitorExpl.Main" />
+      <module name="WzorceProjektoweEx" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="visitorExpl.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.visitorExpl.Main" />
         <item itemvalue="Application.strategyExpl.Main" />
         <item itemvalue="Application.mementoExpl.Main" />
         <item itemvalue="Application.Main" />
         <item itemvalue="Application.chainOfResponsibilityExpl.Main" />
-        <item itemvalue="Application.adapterExpl.Main" />
       </list>
     </recent_temporary>
   </component>
@@ -431,7 +434,14 @@
       <option name="project" value="LOCAL" />
       <updated>1662666051266</updated>
     </task>
-    <option name="localTasksCounter" value="42" />
+    <task id="LOCAL-00042" summary="PatternStrategy">
+      <created>1662746745797</created>
+      <option name="number" value="00042" />
+      <option name="presentableId" value="LOCAL-00042" />
+      <option name="project" value="LOCAL" />
+      <updated>1662746745797</updated>
+    </task>
+    <option name="localTasksCounter" value="43" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
