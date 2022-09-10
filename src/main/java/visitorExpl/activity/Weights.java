@@ -12,12 +12,6 @@ public class Weights implements Activity{
         this.reps = reps;
     }
 
-    //obliczanie ilosci spalonych kalorii
-//    public void calculateCaloriesBurned(){
-//        System.out.println("Calories lifting weights: " + weight*reps*2 );
-//    }
-
-
     public int getWeight() {
         return weight;
     }

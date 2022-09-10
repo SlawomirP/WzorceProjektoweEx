@@ -4,16 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ee92f6aa-eebf-4d94-9691-173d4c75e4c4" name="Changes" comment="PatternStrategy">
-      <change afterPath="$PROJECT_DIR$/src/main/java/visitorExpl/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/visitorExpl/activity/Activity.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/visitorExpl/activity/Squash.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/visitorExpl/activity/Treadmill.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/visitorExpl/activity/Weights.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/visitorExpl/visitor/Visitor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/visitorExpl/visitor/VisitorImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/strategyExpl/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/strategyExpl/Main.java" afterDir="false" />
+    <list default="true" id="ee92f6aa-eebf-4d94-9691-173d4c75e4c4" name="Changes" comment="PatternVisitor">
+      <change beforePath="$PROJECT_DIR$/src/main/java/visitorExpl/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/visitorExpl/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/visitorExpl/activity/Squash.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/visitorExpl/activity/Squash.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/visitorExpl/activity/Treadmill.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/visitorExpl/activity/Treadmill.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/visitorExpl/activity/Weights.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/visitorExpl/activity/Weights.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/visitorExpl/visitor/Visitor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/visitorExpl/visitor/Visitor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/visitorExpl/visitor/VisitorImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/visitorExpl/visitor/VisitorImpl.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -441,7 +438,14 @@
       <option name="project" value="LOCAL" />
       <updated>1662746745797</updated>
     </task>
-    <option name="localTasksCounter" value="43" />
+    <task id="LOCAL-00043" summary="PatternVisitor">
+      <created>1662831452480</created>
+      <option name="number" value="00043" />
+      <option name="presentableId" value="LOCAL-00043" />
+      <option name="project" value="LOCAL" />
+      <updated>1662831452480</updated>
+    </task>
+    <option name="localTasksCounter" value="44" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -472,7 +476,8 @@
     <MESSAGE value="CommandPattern" />
     <MESSAGE value="MementoPattern" />
     <MESSAGE value="PatternStrategy" />
-    <option name="LAST_COMMIT_MESSAGE" value="PatternStrategy" />
+    <MESSAGE value="PatternVisitor" />
+    <option name="LAST_COMMIT_MESSAGE" value="PatternVisitor" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

@@ -2,7 +2,7 @@ package visitorExpl.activity;
 
 import visitorExpl.visitor.Visitor;
 
-public class Squash implements Activity{
+public class Squash implements Activity {
 
     private int minutesPlayed;
 
@@ -21,6 +21,6 @@ public class Squash implements Activity{
 
     @Override
     public void accept(Visitor visitor) {
-visitor.visit(this);
+        visitor.visit(this);
     }
 }
