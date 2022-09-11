@@ -5,9 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ee92f6aa-eebf-4d94-9691-173d4c75e4c4" name="Changes" comment="Pattern State EXPL">
+      <change afterPath="$PROJECT_DIR$/src/main/java/stateExpl/CoinInsertedState.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/stateExpl/CupFullState.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/stateExpl/NoCoinState.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/stateExpl/State.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/stateExpl/CoffeMachine.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/stateExpl/CoffeMachine.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/stateExpl/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/stateExpl/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -50,11 +53,11 @@
       <recent name="observerExr.order" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="stateExpl" />
       <recent name="visitorExpl.activity" />
       <recent name="strategyExpl.chef.eggCooker" />
       <recent name="commandExpl.command" />
       <recent name="chainOfResponsibilityExpl.officer" />
-      <recent name="flyweightExpl.flyweight" />
     </key>
   </component>
   <component name="RunManager" selected="Application.stateExpl.Main">
@@ -464,7 +467,14 @@
       <option name="project" value="LOCAL" />
       <updated>1662902261897</updated>
     </task>
-    <option name="localTasksCounter" value="47" />
+    <task id="LOCAL-00047" summary="Pattern State EXPL">
+      <created>1662902664959</created>
+      <option name="number" value="00047" />
+      <option name="presentableId" value="LOCAL-00047" />
+      <option name="project" value="LOCAL" />
+      <updated>1662902664959</updated>
+    </task>
+    <option name="localTasksCounter" value="48" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
