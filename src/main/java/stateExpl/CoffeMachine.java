@@ -53,6 +53,24 @@ public class CoffeMachine {
         }
     }
 
+    // dodatkowa opcja zwrot monety to dodatkowy switch
+    public void zwrotMonety(){
+        switch (state){
+            case NO_COIN:
+                System.out.println("Brak monety");
+                break;
+            case COIN_INSERTED:
+                System.out.println("Zwracam monete");
+                state = State.NO_COIN;
+                break;
+            case CUP_FULL:
+                System.out.println("Nie mozna zwrocic monety");
+                state = State.NO_COIN;
+                break;
+        }
+    }
+
+
     public enum State{
         NO_COIN, COIN_INSERTED, CUP_FULL
     }
