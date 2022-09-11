@@ -12,6 +12,7 @@ public class CoffeMachine {
         switch (state){
             case NO_COIN:
                 System.out.println("Wrzucono monete");
+                state = State.COIN_INSERTED;
                 break;
             case COIN_INSERTED:
                 System.out.println("Moneta juz wrzucona.");
@@ -23,11 +24,33 @@ public class CoffeMachine {
     }
 
     public void pushTheButton(){
-        System.out.println("Wcisnieto przycisk");
+        switch (state){
+            case NO_COIN:
+                System.out.println("Brak monety");
+                break;
+            case COIN_INSERTED:
+                System.out.println("Nalewam kawę");
+                state = State.CUP_FULL;
+                break;
+            case CUP_FULL:
+                System.out.println("Zabierz najpierw kubek");
+                break;
+        }
     }
 
     public void takeTheCup(){
-        System.out.println("Zabrano kubek");
+        switch (state){
+            case NO_COIN:
+                System.out.println("Brak monety");
+                break;
+            case COIN_INSERTED:
+                System.out.println("Wcśnij guzik");
+                break;
+            case CUP_FULL:
+                System.out.println("Zabrano kubek");
+                state = State.NO_COIN;
+                break;
+        }
     }
 
     public enum State{

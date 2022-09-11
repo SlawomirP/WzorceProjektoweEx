@@ -4,10 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ee92f6aa-eebf-4d94-9691-173d4c75e4c4" name="Changes" comment="PatternVisitor">
-      <change afterPath="$PROJECT_DIR$/src/main/java/stateExpl/CoffeMachine.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/stateExpl/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="ee92f6aa-eebf-4d94-9691-173d4c75e4c4" name="Changes" comment="Pattern State EXPL">
+      <change beforePath="$PROJECT_DIR$/src/main/java/stateExpl/CoffeMachine.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/stateExpl/CoffeMachine.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -450,7 +448,14 @@
       <option name="project" value="LOCAL" />
       <updated>1662838175513</updated>
     </task>
-    <option name="localTasksCounter" value="45" />
+    <task id="LOCAL-00045" summary="Pattern State EXPL">
+      <created>1662901952331</created>
+      <option name="number" value="00045" />
+      <option name="presentableId" value="LOCAL-00045" />
+      <option name="project" value="LOCAL" />
+      <updated>1662901952331</updated>
+    </task>
+    <option name="localTasksCounter" value="46" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -482,7 +487,8 @@
     <MESSAGE value="MementoPattern" />
     <MESSAGE value="PatternStrategy" />
     <MESSAGE value="PatternVisitor" />
-    <option name="LAST_COMMIT_MESSAGE" value="PatternVisitor" />
+    <MESSAGE value="Pattern State EXPL" />
+    <option name="LAST_COMMIT_MESSAGE" value="Pattern State EXPL" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
