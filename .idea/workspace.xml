@@ -4,7 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ee92f6aa-eebf-4d94-9691-173d4c75e4c4" name="Changes" comment="Pattern State EXPL">
+    <list default="true" id="ee92f6aa-eebf-4d94-9691-173d4c75e4c4" name="Changes" comment="Pattern Facade EXPL">
+      <change afterPath="$PROJECT_DIR$/src/main/java/facadePattern/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/facadePattern/deliveryBox/DeliveryBox.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/facadePattern/deliveryBox/DeliveryBoxFacade.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/facadePattern/deliveryBox/DeliveryBoxSystem.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -55,13 +59,13 @@
       <recent name="chainOfResponsibilityExpl.officer" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.stateExpl.Main">
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="commandExpl.Main" />
+  <component name="RunManager" selected="Application.facadePattern.Main">
+    <configuration name="facadePattern.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="facadePattern.Main" />
       <module name="WzorceProjektoweEx" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="commandExpl.*" />
+          <option name="PATTERN" value="facadePattern.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -123,11 +127,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.facadePattern.Main" />
         <item itemvalue="Application.stateExpl.Main" />
         <item itemvalue="Application.visitorExpl.Main" />
         <item itemvalue="Application.strategyExpl.Main" />
         <item itemvalue="Application.mementoExpl.Main" />
-        <item itemvalue="Application.Main" />
       </list>
     </recent_temporary>
   </component>
@@ -476,7 +480,14 @@
       <option name="project" value="LOCAL" />
       <updated>1662905067831</updated>
     </task>
-    <option name="localTasksCounter" value="49" />
+    <task id="LOCAL-00049" summary="Pattern Facade EXPL">
+      <created>1662999099301</created>
+      <option name="number" value="00049" />
+      <option name="presentableId" value="LOCAL-00049" />
+      <option name="project" value="LOCAL" />
+      <updated>1662999099301</updated>
+    </task>
+    <option name="localTasksCounter" value="50" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -509,7 +520,8 @@
     <MESSAGE value="PatternStrategy" />
     <MESSAGE value="PatternVisitor" />
     <MESSAGE value="Pattern State EXPL" />
-    <option name="LAST_COMMIT_MESSAGE" value="Pattern State EXPL" />
+    <MESSAGE value="Pattern Facade EXPL" />
+    <option name="LAST_COMMIT_MESSAGE" value="Pattern Facade EXPL" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
